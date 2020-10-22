@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    height: 735px;
+    width: 800px;
+    background-color: #4c1c39;
+    background-image: linear-gradient(#4c1c39, #5c4352,#4c1c39);
+    padding: 10px;
+    font-family: sans-serif;
+}
+#header{
+    background-color: rgb(230,230,230);
+    padding: 15px 0px;
+    width: 820px;
+}
+    #header h1{
+        display: inline-block;
+        width: 415x;
+        margin-left: 12px;
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    #header p{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8px;
+        margin-left: 135px;
+        width: 440px;
+        text-align: right;
+        font-size: 20px;
+    }
+#box-1, #box-2{
+    background-color: #d2c8c8;
+    margin-left: 7px;
+    display: inline-block;
+}
+#box-1{
+    height: 215px;
+    width: 200px;
+}
+.myphoto{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    border: 6px solid #d2c8c8;
+    height: 220px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#box-2{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 215px;
+    width: 400px;
+    background-image: linear-gradient(to right, whitesmoke, rgb(168, 149, 168));
+    margin-left: 20px;
+    padding: 0px;
+    vertical-align: top;
+}
+#box-2 h2{
+    padding: 4px 10px;
+    background-color: rgb(136, 136, 136);
+    background-image: linear-gradient(rgb(136, 136, 136), rgb(93, 80, 94), rgb(136, 136, 136));
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+#box-2 p{
+    padding: 10px 0 0px 4px;
+    font-size: smaller;
+    text-align: left;
+    padding: 8px;
+    margin-left: 0px;
+    margin-right: 3px;
+}    
+#box-2 a{
+    display: inline;
+    padding: 4px 10px;
+    color: black;
+    text-align: left;
+    font-size: smaller;
+}
+#box-3, #box-4, #box-5{
+    height: 480px;
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 7px;
+    background-color:  #d2c8c8;
+    background-image: linear-gradient(to right, whitesmoke, rgb(168, 149, 168));
+    border: 0px solid  #d2c8c8;
+    display: inline-block;
+}
+.photo_1{
+    height: 132px;
+    display: inline-block;
+}
+#box-3{
+    margin-left: 15px;
+}
+#box-3 h3, h4{
+    padding: 4px 10px;
+    background-color: rgb(136, 136, 136);
+    background-image: linear-gradient(rgb(136, 136, 136), rgb(93, 80, 94), rgb(136, 136, 136));
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+.photo_2{
+    height: 131px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#box-4 h3, h4{
+    padding: 4px 10px;
+    background-color: rgb(136, 136, 136);
+    background-image: linear-gradient(rgb(136, 136, 136), rgb(93, 80, 94), rgb(136, 136, 136));
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+.photo_3{
+    height: 132px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#box-5 h3, h4{
+    padding: 4px 10px;
+    background-color: rgb(136, 136, 136);
+    background-image: linear-gradient(rgb(136, 136, 136), rgb(93, 80, 94), rgb(136, 136, 136));
+    color: white;
+    text-align: left;
+    font-size: small;
+}
+#box-3 div img, #box-4 div img, #box-5 div img{
+    width: 30px;
+    margin: 4px;
+}
+#box-3 button, #box-4 button, #box-5 button{
+    margin-left: 70px;
+    background-color: teal;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: slategray;
+    padding: 3px;
+}
+#box-3 p {
+    display: inline-block;
+    font-size: smaller;
+    padding: 0px 6px 0px 5px;
+    height: 175px;
+    text-align: justify;
+}
+#box-4 p {
+    display: inline-block;
+    font-size: smaller;
+    padding: 0px 10px 0px 5px;
+    height: 175px;
+    text-align: justify;
+}
+#box-5 p {
+    display: inline-block;
+    font-size: smaller;
+    padding: 0px 10px 0px 5px;
+    height: 175px;
+    text-align: justify;
+}
+#footer div{
+    display: inline-block;
+    margin-top: 17px;
+    margin-left: 135px;
+    width: 440px;
+    font-size: 15px;
+    text-align: center;
+}
+#footer div img{
+    display: inline-block;
+    width: 15px;
+}
